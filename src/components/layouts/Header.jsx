@@ -9,6 +9,11 @@ const Header = () => {
             <div className="">
               <Image src={logo}/>
             </div>
+            <div className="">
+              <ul className="flex items-center gap-x-5">
+                <li className="font-rajdhani text-base font-bold text-common">Home</li>
+              </ul>
+            </div>
         </div>
 
     </div>
@@ -16,3 +21,9 @@ const Header = () => {
 }
 
 export default Header
+// Home
+// About
+// Services 
+// Blog 
+// Project 
+// Contact
