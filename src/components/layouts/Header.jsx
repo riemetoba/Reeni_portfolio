@@ -6,9 +6,12 @@ const Header = () => {
   return (
     <div className="bg-[#F4F4F4] py-5">
       <div className="container flex items-center justify-between">
+        {/* Logo start  */}
         <div className="">
           <Image src={logo} />
         </div>
+        {/* Logo end  */}
+        {/* Menu start  */}
         <div className="">
           <ul className="flex items-center gap-x-5">
             <li className="font-rajdhani text-base font-bold text-common">
@@ -40,6 +43,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
+        {/* Menu start  */}
       </div>
     </div>
   );
