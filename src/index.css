@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @layer utilities {
     .container {
-        @apply max-w-315
+        @apply max-w-315 mx-auto;
     }
+}
+@theme {
+  --font-rajdhani: "Rajdhani", sans-serif; 
 }
