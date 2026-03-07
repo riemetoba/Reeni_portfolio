@@ -1,81 +1,65 @@
 import Button from "../Button";
-import {
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-  FaFacebookF,
-} from "react-icons/fa";
 import Image from "../Image";
 import bannerImg from "/src/assets/bannerImg.png";
+import Icons from "../Icons";
 
 const Banner = () => {
   return (
-    <div className="py-15">
-      <div className="flex items-center justify-between container">
+    <div className="min-h-200 flex items-center pb-25">
+      <div className="container mx-auto flex items-center justify-between gap-10">
         {/* Flex left  */}
-        <div className="">
+        <div className="w-[25%] z-30">
           <h3 className="font-rajdhani font-bold text-[28px] text-common uppercase">
             Hello i’m
           </h3>
-          <h1 className="font-rajdhani font-bold text-[90px] text-common uppercase w-101.25 leading-[103.5px] py-5">
-            Brooklyn Simmons
+          <h1 className="font-rajdhani font-bold text-[80px] text-common uppercase leading-[103.5px] py-5">
+            Brooklyn <br /> Simmons
           </h1>
           <Button btnText={"View Portfolio"} />
         </div>
         {/* Flex left  */}
         {/* Flex middle  */}
-
-        <div className="relative flex justify-center items-end h-175">
-          {/* Grey Outline Text (Back) */}
-          <h1
-            className="absolute bottom-24 text-[160px] font-extrabold 
-      text-transparent tracking-[10px] 
-      [-webkit-text-stroke:2px_#d1d5db] z-0"
-          >
+        <div className="relative flex justify-center items-end h-175 w-[50%]">
+          {/* Back text  */}
+          <h1 className="absolute top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-[190px] font-bold text-transparent uppercase tracking-wider [-webkit-text-stroke:1px_#5D6570] z-0 opacity-30 whitespace-nowrap select-none font-rajdhani">
             WEB DESIGN
           </h1>
 
-          {/* Red Outline Text (Front of grey but behind image) */}
-          <h1
-            className="absolute bottom-10 text-[140px] font-extrabold 
-      text-transparent tracking-[10px] 
-      [-webkit-text-stroke:2px_red] z-10"
-          >
-            WEB DESIGN
-          </h1>
-
-          {/* Image (Top Layer) */}
-         <Image src={bannerImg} className={"relative z-20 w-155"}/>
-        </div>
-
-        {/* Flex middle  */}
-        {/* Flex right  */}
-        <div className="">
-          <p className="font-rubik text-base text-common">About Me</p>
-          <p className="font-rubik text-base text-[#5D6570] leading-7.5 w-74 py-8">
-            A personal <span className="text-red">portfolio</span> is a
-            collection of to your work, that is achievements, and a skills that{" "}
-            <span className="text-red">web design</span> highlights in your
-          </p>
-          <p>Find me on</p>
-          {/* Icons start  */}
-          <div className="flex items-center gap-x-3 pt-4">
-            <div className="flex items-center justify-center bg-[#0A0A0A]/5 rounded-full h-15 w-15">
-              <FaInstagram className="text-common text-xl" />
-            </div>
-            <div className="flex items-center justify-center bg-[#0A0A0A]/5 rounded-full h-15 w-15">
-              <FaLinkedinIn className="text-common text-xl" />
-            </div>
-            <div className="flex items-center justify-center bg-[#0A0A0A]/5 rounded-full h-15 w-15">
-              <FaTwitter className="text-common text-xl" />
-            </div>
-            <div className="flex items-center justify-center bg-[#0A0A0A]/5 rounded-full h-15 w-15">
-              <FaFacebookF className="text-common text-xl" />
-            </div>
+          {/* Image start  */}
+          <div className="relative z-10">
+            <Image src={bannerImg} className="h-162.5 w-auto object-contain" />
           </div>
-          {/* Icons end */}
+          {/* Image end  */}
+          {/* Front text  */}
+          <h1
+            className="absolute bottom-20 left-1/2 -translate-x-1/2 text-[120px] font-black text-transparent uppercase tracking-tight [-webkit-text-stroke:1.5px_red] z-20 pointer-events-none select-none font-rajdhani whitespace-nowrap"
+            aria-hidden="true"
+          >
+            WEB DESIGN
+          </h1>
         </div>
-        {/* Flex right  */}
+        {/* Flex middle  */}
+        {/* --- Flex Right: About Section --- */}
+        <div className="w-[25%] z-30 space-y-6">
+          <div>
+            <p className="font-rubik text-base text-common font-medium">
+              About Me
+            </p>
+            <p className="font-rubik text-base text-[#5D6570] leading-7.5 w-[296.25px] pt-4">
+              A personal <span className="text-red">portfolio</span> is a
+              collection of to your work, that is achievements, and a skills
+              that <span className="text-red">web design</span> highlights in
+              your
+            </p>
+          </div>
+
+          <div>
+            <p className="font-rubik text-base text-common font-medium mb-4">
+              Find me on
+            </p>
+            <Icons />
+          </div>
+        </div>
       </div>
     </div>
   );
