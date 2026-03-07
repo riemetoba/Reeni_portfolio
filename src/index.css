@@ -6,5 +6,9 @@
 }
 @theme {
   --font-rajdhani: "Rajdhani", sans-serif; 
+  --font-rubik: "Rubik", sans-serif; 
+    
+
    --color-common: #141414; 
+   --color-red: #FF494A; 
 }
