@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "../Image";
 import logo from "/src/assets/logo.png";
 import { CiMail } from "react-icons/ci";
@@ -22,9 +21,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="">
-          <h4 className="font-rajdhani font-bold text-2xl text-common">Quick Link</h4>
+          <h4 className="font-rajdhani font-bold text-2xl text-common pb-8">Quick Link</h4>
           <ul>
-            <li>About Me</li>
+            <li className="font-rubik text-base text-common pt-4">About Me</li>
+            <li className="font-rubik text-base text-common pt-4">Service</li>
+            <li className="font-rubik text-base text-common pt-4">Contact Us</li>
+            <li className="font-rubik text-base text-common pt-4">Blog Post</li>
+            <li className="font-rubik text-base text-common pt-4">Pricing</li>
           </ul>
         </div>
       </div>

@@ -39,7 +39,7 @@ const Banner = () => {
           </h1>
         </div>
         {/* Flex middle  */}
-        {/* --- Flex Right: About Section --- */}
+        {/* Flex right */}
         <div className="w-[25%] z-30 space-y-6">
           <div>
             <p className="font-rubik text-base text-common font-medium">
@@ -60,6 +60,7 @@ const Banner = () => {
             <Icons />
           </div>
         </div>
+        {/* Flex right */}
       </div>
     </div>
   );
