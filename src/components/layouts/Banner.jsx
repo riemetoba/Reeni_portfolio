@@ -6,7 +6,7 @@ import Icons from "../Icons";
 
 const Banner = () => {
   return (
-    <div className="min-h-200 flex items-center pb-30">
+    <section className="min-h-200 flex items-center pb-30">
       <div className="container mx-auto flex items-center justify-between gap-10">
         {/* Flex left  */}
         <div className="w-[25%] z-30">
@@ -74,7 +74,7 @@ const Banner = () => {
         </div>
       </div>
       {/* Banner right side end  */}
-    </div>
+    </section>
   );
 };
 
