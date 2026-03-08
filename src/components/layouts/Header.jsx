@@ -15,7 +15,7 @@ const Header = () => {
         {/* Logo end  */}
         {/* Menu start  */}
         <div className="">
-          <ul className="flex items-center gap-x-5">
+          <ul className="flex items-center gap-x-5 cursor-pointer">
             <li className="font-rajdhani text-base font-bold text-common">
               Home
             </li>
