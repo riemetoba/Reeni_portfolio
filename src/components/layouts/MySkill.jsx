@@ -73,9 +73,9 @@ const MySkill = () => {
               </div>
               <div className="lg:w-[45%] md:w-[45%] w-full">
                 <p className="text-base text-[#5D6570] group-hover:text-common font-rubik leading-8 lg:w-[80%] md:w-[80%] w-full  lg:ml-10 ml-0 text-center lg:text-start md:text-start">
-                  My work is driven by the belief that thoughtful design and
-                  strategic planning can empower brands strategic planning can
-                  empower brands
+                  In this portfolio, you’ll find a curated selection of projects
+                  that highlight my skills in Main Areas, e.g., responsive web
+                  design
                 </p>
               </div>
               <div className="lg:w-[15%] md:w-[15%] w-full flex lg:justify-end md:justify-end justify-center ">
@@ -99,17 +99,16 @@ const MySkill = () => {
               </div>
               <div className="lg:w-[25%] md:w-[25%] w-full">
                 <h3 className="text-[32px] text-common font-bold font-rajdhani  text-center lg:text-start md:text-start">
-                  Ui/visual Design
+                  Motion Design
                 </h3>
                 <h5 className="text-lg text-common font-rajdhani text-center lg:text-start md:text-start">
-                  21 Done
+                  20 Done
                 </h5>
               </div>
               <div className="lg:w-[45%] md:w-[45%] w-full">
                 <p className="text-base text-[#5D6570] group-hover:text-common font-rubik leading-8 lg:w-[80%] md:w-[80%] w-full  lg:ml-10 ml-0 text-center lg:text-start md:text-start">
-                  My work is driven by the belief that thoughtful design and
-                  strategic planning can empower brands strategic planning can
-                  empower brands
+                  Each project here showcases my commitment to excellence and
+                  adaptability, tailored to meet each client’s unique needs
                 </p>
               </div>
               <div className="lg:w-[15%] md:w-[15%] w-full flex lg:justify-end md:justify-end justify-center ">
