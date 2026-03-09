@@ -4,6 +4,7 @@ import Header from './components/layouts/Header'
 import Banner from './components/layouts/Banner'
 import Experience from './components/layouts/Experience'
 import ExperienceCounter from './components/layouts/ExperienceCounter'
+import Portfolio from './components/layouts/Portfolio'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
     <Banner/>
     <Experience/>
     <ExperienceCounter/>
+    <Portfolio/>
     <Footer/>
     </>
   )
