@@ -7,6 +7,7 @@ import ExperienceCounter from './components/layouts/ExperienceCounter'
 import Portfolio from './components/layouts/Portfolio'
 import MySkill from './components/layouts/MySkill'
 import Testimonial from './components/layouts/Testimonial'
+import Service from './components/layouts/Service'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <Banner/>
     <Experience/>
     <ExperienceCounter/>
+    <Service/>
     <Portfolio/>
     <MySkill/>
     <Testimonial/>
