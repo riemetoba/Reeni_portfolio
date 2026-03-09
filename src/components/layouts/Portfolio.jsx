@@ -1,14 +1,14 @@
+import Image from "../Image";
 import portfolioOne from "/src/assets/portfolioOne.png";
 import portfolioTwo from "/src/assets/portfolioTwo.png";
 import portfolioThree from "/src/assets/portfolioThree.png";
 import portfolioFour from "/src/assets/portfolioFour.png";
 import { GoArrowUpRight } from "react-icons/go";
-import Image from "../Image";
 
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className="bg-[#F4F4F4]">
       <div className="container lg:py-25 py-15">
         {/* Title text part start */}
         <div className="">
@@ -25,10 +25,10 @@ const Portfolio = () => {
           </p>
         </div>
         {/* Title text part end */}
-{/* Portfolio Image part start  */}
+        {/* Portfolio Image part start  */}
         <div className="mt-15 lg:flex md:flex justify-between ">
           <div className="lg:w-1/2 md:w-1/2 w-full">
-          {/* ===================>  */}
+            {/* ===================>  */}
             <div className="px-6 ">
               <div className="p-5 border border-[#D9DDE0] rounded-[20px]">
                 <Image src={portfolioOne} />
@@ -70,7 +70,7 @@ const Portfolio = () => {
           </div>
           {/* ===================>  */}
           <div className="lg:w-1/2 md:w-1/2 w-full  lg:mt-25 md:mt-20 mt-15">
-          {/* ===================>  */}
+            {/* ===================>  */}
             <div className="px-6 ">
               <div className="p-5 border border-[#D9DDE0] rounded-[20px]">
                 <Image src={portfolioThree} />
