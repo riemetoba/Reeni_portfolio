@@ -1,119 +1,110 @@
 import Button from "../Button";
 import Image from "../Image";
-import redIcon from "/src/assets/redIcon.png"
+import redIcon from "/src/assets/redIcon.png";
 
 const PricePlan = () => {
   return (
-    <section>
-      <div className="container lg:py-20 py-10">
-        {/* Title text part start */}
-        <div className="pb-25">
-          <h4 className="text-base text-red font-medium  font-rubik  text-center uppercase">
-            My Price plan
-          </h4>
-          <h3 className="lg:text-5xl md:text-[32px] text-[22px] text-common font-bold font-rajdhani text-center lg:leading-15 lg:w-121 w-full mx-auto">
-            Enhancing Collaboration between Remote
+    <section className="py-20">
+      <div className="max-w-6xl mx-auto px-6">
+        {/* Title text */}
+        <div className="text-center mb-20">
+          <p className="text-red text-base font-rubik uppercase">
+            My Price Plan
+          </p>
+          <h3 className="text-5xl text-common font-rajdhani leading-15 font-bold">
+            Enhancing Collaboration <br /> between Remote
           </h3>
         </div>
-        {/* Title text part end */}
-        {/* Content start  */}
-        <div className="flex justify-between items-center">
-          {/* =====================> */}
-          <div className="bg-[#F4F4F4] w-100 p-7 rounded-[15px] border-b-3 border-r-3 border-red">
-            <p className="font-rajdhani font-bold text-lg text-common">Starter</p>
-            <h5 className="font-rajdhani font-bold text-[48px] text-common">$ 5.00</h5>
-            <p className="font-rajdhani font-bold text-lg text-common pb-13">Per Month</p>
-            <div className="flex items-center gap-x-3 pb-4">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">5 Social Media Account</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-x-3 pb-4">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">Free Platform Access</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-x-3 pb-8">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">24/7 Customer Support</p>
-              </div>
-            </div>
-            <Button btnText={"Get Started"}/>
+        {/* Title text */}
+        {/* cards start */}
+        <div className="grid md:grid-cols-3 gap-12">
+          {/* 1 =======================> */}
+          <div className="bg-[#F4F4F4] rounded-[14px] border-b-3 border-r-3 border-red p-8 shadow-sm">
+            <p className="text-common font-rajdhani font-bold text-base mb-2">
+              Starter
+            </p>
+            <h3 className="text-common font-rajdhani font-bold text-5xl mb-1">
+              $ 5.00
+            </h3>
+            <p className="text-common font-rajdhani font-bold text-base mb-12">
+              Per Month
+            </p>
+
+            <ul className="space-y-3 text-[#5D6570]">
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> 5 Social Media Account
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> Free Platform Access
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> 24/7 Customer Support
+              </li>
+            </ul>
+
+            <Button className={"mt-8"} btnText={"Get Started"} />
           </div>
-          {/* ========================> */}
-          <div className="hover:scale-y-125 duration-300 bg-[#F4F4F4] w-100 p-7 rounded-[15px] border-b-3 border-r-3 border-red">
-            <p className="font-rajdhani font-bold text-lg text-common">Starter</p>
-            <h5 className="font-rajdhani font-bold text-[48px] text-common">$ 5.00</h5>
-            <p className="font-rajdhani font-bold text-lg text-common pb-13">Per Month</p>
-            <div className="flex items-center gap-x-3 pb-4">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">5 Social Media Account</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-x-3 pb-4">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">Free Platform Access</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-x-3 pb-8">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">24/7 Customer Support</p>
-              </div>
-            </div>
-            <Button btnText={"Get Started"}/>
+
+          {/* 2 =======================> */}
+          <div className="bg-[#F4F4F4] rounded-[14px] border-b-3 border-r-3 border-red p-8 shadow-sm scale-105 md:-mt-7 md:-mb-7">
+            <p className="text-common font-rajdhani font-bold text-base mb-2">
+              Basic
+            </p>
+            <h3 className="text-common font-rajdhani font-bold text-5xl mb-1">
+              $ 230.00
+            </h3>
+            <p className="text-common font-rajdhani font-bold text-base mb-12">
+              Per Month
+            </p>
+
+            <ul className="space-y-3 text-[#5D6570]">
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> 5 Social Media Account
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> Free Platform Access
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> Marketing Platform
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> 24/7 Customer Support
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> Life time support
+              </li>
+            </ul>
+
+            <Button className={"mt-8"} btnText={"Get Started"} />
           </div>
-          {/* ========================> */}
-          <div className="bg-[#F4F4F4] w-100 p-7 rounded-[15px] border-b-3 border-r-3 border-red">
-            <p className="font-rajdhani font-bold text-lg text-common">Starter</p>
-            <h5 className="font-rajdhani font-bold text-[48px] text-common">$ 5.00</h5>
-            <p className="font-rajdhani font-bold text-lg text-common pb-13">Per Month</p>
-            <div className="flex items-center gap-x-3 pb-4">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">5 Social Media Account</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-x-3 pb-4">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">Free Platform Access</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-x-3 pb-8">
-              <div className="">
-                <Image src={redIcon}/>
-              </div>
-              <div className="">
-                <p className="text-[#5D6570] font-rubik text-base">24/7 Customer Support</p>
-              </div>
-            </div>
-            <Button btnText={"Get Started"}/>
+
+          {/* 3 =======================> */}
+          <div className="bg-[#F4F4F4] rounded-[14px] border-b-3 border-r-3 border-red p-8 shadow-sm">
+            <p className="text-common font-rajdhani font-bold text-base mb-2">
+              Premium
+            </p>
+            <h3 className="text-common font-rajdhani font-bold text-5xl mb-1">
+              $ 45.00
+            </h3>
+            <p className="text-common font-rajdhani font-bold text-base mb-12">
+              Per Month
+            </p>
+
+            <ul className="space-y-3 text-[#5D6570]">
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> 5 Social Media Account
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> Free Platform Access
+              </li>
+              <li className="flex items-start gap-x-3">
+                <Image src={redIcon} /> 24/7 Customer Support
+              </li>
+            </ul>
+
+            <Button className={"mt-8"} btnText={"Get Started"} />
           </div>
-          {/* ========================> */}
         </div>
-        {/* Content end  */}
       </div>
     </section>
   );
