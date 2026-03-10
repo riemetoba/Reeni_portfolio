@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container flex items-start justify-between">
         <div className="w-[50%]">
           <Image src={logo} />
-          <h2 className="text-[50px] font-rajdhani w-100 leading-15 py-8">
+          <h2 className="text-[40px] lg:text-[50px] font-rajdhani w-100 leading-15 py-8">
             <span className="font-bold">Get Ready</span> To Create Great
           </h2>
           <div className="flex items-center border-b border-b-[#D9DDE0] pb-4 w-82.5">

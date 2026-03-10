@@ -9,6 +9,8 @@ import MySkill from './components/layouts/MySkill'
 import Testimonial from './components/layouts/Testimonial'
 import Service from './components/layouts/Service'
 import Education from './components/layouts/Education'
+import Market from './components/layouts/Market'
+import PricePlan from './components/layouts/PricePlan'
 
 function App() {
   
@@ -20,8 +22,10 @@ function App() {
     <ExperienceCounter/>
     <Service/>
     <Education/>
+    <Market/>
     <Portfolio/>
     <MySkill/>
+    <PricePlan/>
     <Testimonial/>
     <Footer/>
     </>

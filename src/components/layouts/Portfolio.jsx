@@ -5,19 +5,18 @@ import portfolioThree from "/src/assets/portfolioThree.png";
 import portfolioFour from "/src/assets/portfolioFour.png";
 import { GoArrowUpRight } from "react-icons/go";
 
-
 const Portfolio = () => {
   return (
     <section className="bg-[#F4F4F4]">
       <div className="container lg:py-25 py-15">
         {/* Title text part start */}
-        <div className="">
-          <h4 className="text-base text-red font-medium  font-rubik  text-center uppercase">
+        <div className="text-center">
+          <h4 className="text-base text-red font-medium  font-rubik uppercase">
             Latest Portfolio
           </h4>
-          <h2 className="lg:text-[48px] text-[22px] md:text-[32px] text-common font-bold font-rajdhani text-center">
-            Transforming Ideas into Exceptional
-          </h2>
+          <h3 className="lg:text-[48px] text-[22px] md:text-[32px] text-common font-bold font-rajdhani">
+            Transforming Ideas into Exceptional{" "}
+          </h3>
           <p className="text-base text-[#5D6570] font-rubik text-center lg:w-156.75 mx-auto ">
             Business consulting consultants provide expert advice and guida
             businesses to help them improve their performance, efficiency, and
@@ -30,7 +29,7 @@ const Portfolio = () => {
           <div className="lg:w-1/2 md:w-1/2 w-full">
             {/* ===================>  */}
             <div className="px-6 ">
-              <div className="p-5 border border-[#D9DDE0] rounded-[20px]">
+              <div className="p-5 border-3 border-common/5 rounded-[20px]">
                 <Image src={portfolioOne} />
               </div>
               <div className=" flex justify-between items-center mt-8.25">
@@ -42,14 +41,14 @@ const Portfolio = () => {
                     Development Coaches
                   </p>
                 </div>
-                <div className="p-3 border border-[#D9DDE0] rounded-[10px] text-common cursor-pointer">
+                <div className="p-3 border-3 border-common/5 rounded-[10px] text-common cursor-pointer">
                   <GoArrowUpRight />
                 </div>
               </div>
             </div>
             {/* ===================>  */}
             <div className="px-6 lg:mt-35 md:mt-25 mt-15 ">
-              <div className="p-5 border border-[#D9DDE0] rounded-[20px]">
+              <div className="p-5 border-3 border-common/5 rounded-[20px]">
                 <Image src={portfolioTwo} />
               </div>
               <div className=" flex justify-between items-center mt-8.25">
@@ -61,7 +60,7 @@ const Portfolio = () => {
                     App Development
                   </p>
                 </div>
-                <div className="p-3 border border-[#D9DDE0] rounded-[10px] text-common cursor-pointer">
+                <div className="p-3 border-3 border-common/5 rounded-[10px] text-common cursor-pointer">
                   <GoArrowUpRight />
                 </div>
               </div>
@@ -72,7 +71,7 @@ const Portfolio = () => {
           <div className="lg:w-1/2 md:w-1/2 w-full  lg:mt-25 md:mt-20 mt-15">
             {/* ===================>  */}
             <div className="px-6 ">
-              <div className="p-5 border border-[#D9DDE0] rounded-[20px]">
+              <div className="p-5 border-3 border-common/5 rounded-[20px]">
                 <Image src={portfolioThree} />
               </div>
               <div className=" flex justify-between items-center mt-8.25">
@@ -84,14 +83,14 @@ const Portfolio = () => {
                     Development Coaches
                   </p>
                 </div>
-                <div className="p-3 border border-[#D9DDE0] rounded-[10px] text-common cursor-pointer">
+                <div className="p-3 border-3 border-common/5 rounded-[10px] text-common cursor-pointer">
                   <GoArrowUpRight />
                 </div>
               </div>
             </div>
             {/* ===================>  */}
             <div className="px-6 lg:mt-35 md:mt-25 mt-15 ">
-              <div className="p-5 border border-[#D9DDE0] rounded-[20px]">
+              <div className="p-5 border-3 border-common/5 rounded-[20px]">
                 <Image src={portfolioFour} />
               </div>
               <div className=" flex justify-between items-center mt-8.25">
@@ -103,7 +102,7 @@ const Portfolio = () => {
                     Business Development
                   </p>
                 </div>
-                <div className="p-3 border border-[#D9DDE0] rounded-[10px] text-common cursor-pointer">
+                <div className="p-3 border-3 border-common/5 rounded-[10px] text-common cursor-pointer">
                   <GoArrowUpRight />
                 </div>
               </div>

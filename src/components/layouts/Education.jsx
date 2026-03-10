@@ -1,24 +1,24 @@
 import Image from "../Image";
-import educationImg from "/src/assets/educationImg.png"
+import educationImg from "/src/assets/educationImg.png";
 
 const Education = () => {
   return (
     <section>
-      <div className="container lg:py-20 py-10">
+      <div className="container lg:pt-20 pt-10">
         <h2 className="text-[32px] text-common font-bold font-rajdhani leading-10.5">
           Education
         </h2>
-        <div className=" lg:flex  justify-between items-center mt-8 gap-8">
+        <div className=" lg:flex justify-between items-center mt-8 gap-8">
           <div className="lg:w-1/2 w-full">
             <div className="">
-              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red  ">
-                <h4 className="text-base text-primary font-normal font-rubik leading-6.5">
+              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red">
+                <h4 className="text-base text-common font-rubik leading-6.5">
                   Trainer Marketing
                 </h4>
-                <h2 className="text-[18px] text-primary font-bold font-rajdhani leading-7 ">
+                <h2 className="text-lg text-common font-bold font-rajdhani leading-7">
                   2005-2009
                 </h2>
-                <p className="text-base text-tertiary font-normal font-rubik leading-6.5 mt-4 ">
+                <p className="text-base text-[#5D6570] font-normal font-rubik leading-6.5 mt-4">
                   A personal portfolio is a curated collection of an
                   individual's professional work, showcasing their skills,
                   experience A personal portfolio.
@@ -26,14 +26,14 @@ const Education = () => {
               </div>
             </div>
             <div className="">
-              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red mt-8 ">
-                <h4 className="text-base text-primary dark:text-white font-normal font-rubik leading-6.5">
+              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red mt-8">
+                <h4 className="text-base text-primary font-normal font-rubik leading-6.5">
                   Design Assistant
                 </h4>
-                <h2 className="text-[18px] text-primary font-bold font-rajdhani leading-7 ">
+                <h2 className="text-lg text-primary font-bold font-rajdhani leading-7">
                   2008-2012
                 </h2>
-                <p className="text-base text-tertiary font-normal font-rubik leading-6.5 mt-4 ">
+                <p className="text-base text-[#5D6570] font-rubik leading-6.5 mt-4">
                   I’ve had the privilege of working with various clients, from
                   startups to established companies, helping bring their visions
                   to life.
@@ -43,28 +43,28 @@ const Education = () => {
           </div>
           <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
             <div className="">
-              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red  ">
-                <h4 className="text-base text-common font-normal font-rubik leading-6.5">
+              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red">
+                <h4 className="text-base text-common font-rubik leading-6.5">
                   Assistant Director
                 </h4>
-                <h2 className="text-[18px] text-common font-bold font-rajdhani leading-7 ">
+                <h2 className="text-lg text-common font-bold font-rajdhani leading-7">
                   2010-2014
                 </h2>
-                <p className="text-base text-tertiary font-normal font-rubik leading-6.5 mt-4 ">
+                <p className="text-base text-[#5D6570] font-rubik leading-6.5 mt-4">
                   Each project here showcases my commitment to excellence and
                   adaptability, tailored to meet each client’s unique needs.
                 </p>
               </div>
             </div>
             <div className="">
-              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red mt-8 ">
-                <h4 className="text-base text-common font-normal font-rubik leading-6.5">
+              <div className="py-12 px-9.5 bg-[#f4f4f4] rounded-[20px] border-b-2 border-r-2 border-red mt-8">
+                <h4 className="text-base text-common font-rubik leading-6.5">
                   Design Assistant
                 </h4>
-                <h2 className="text-[18px] text-common font-bold font-rajdhani leading-7 ">
+                <h2 className="text-lg text-common font-bold font-rajdhani leading-7">
                   2008-2012
                 </h2>
-                <p className="text-base text-tertiary font-normal font-rubik leading-6.5 mt-4 ">
+                <p className="text-base text-[#5D6570] font-rubik leading-6.5 mt-4">
                   Each project here showcases my commitment to excellence and
                   adaptability, tailored to meet each client’s unique needs a
                   personal.
@@ -75,28 +75,47 @@ const Education = () => {
         </div>
         {/* =================================> */}
         <div className="lg:flex justify-between items-start gap-17.5 mt-18.75">
-                    <div className="lg:w-1/2 w-full">
-                        <Image src={educationImg} />
-                    </div>
-                    <div className="lg:w-1/2 w-full lg:mt-0 mt-7">
-                        <div className="">
-                            <h3 className='text-[32px] text-common font-bold font-rajdhani'>Experiences</h3>
-                                <div className="mt-8">
-                                    <h3 className='text-base text-red font-medium  font-rubik '>experience</h3>
-                                    <h4 className='text-2xl text-primary font-bold font-rajdhani'>Fatima Asrafy</h4>
-                                    <h5 className='text-lg text-common font-medium font-rajdhani'>UI/UX Designer</h5>
-                                    <p className='text-base text-[#5D6570] font-rubik leading-7.5 mt-4 lg:w-111 w-full'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
-                                </div>
-                                <div className="mt-12.5">
-                                    <h3 className='text-base text-red font-medium  font-rubik '>experience</h3>
-                                    <h4 className='text-2xl text-common font-bold font-rajdhani leading-7.5'>Fatima Asrafy</h4>
-                                    <h5 className='text-lg text-common font-medium font-rajdhani leading-7'>UI/UX Designer</h5>
-                                    <p className='text-base text-[#5D6570] font-rubik leading-7.5 mt-4 lg:w-111 w-full'>Interested in working together? Let’s bring your ideas to life! Contact me, and let’s start building something.</p>
-                                </div>
-                            
-                        </div>
-                    </div>
-                   </div>
+          <div className="lg:w-1/2 w-full">
+            <Image src={educationImg} />
+          </div>
+          <div className="lg:w-1/2 w-full lg:mt-0 mt-7">
+            <div className="">
+              <h3 className="text-[32px] text-common font-bold font-rajdhani">
+                Experiences
+              </h3>
+              <div className="mt-8">
+                <h3 className="text-base text-red font-medium  font-rubik ">
+                  experience
+                </h3>
+                <h4 className="text-2xl text-primary font-bold font-rajdhani">
+                  Fatima Asrafy
+                </h4>
+                <h5 className="text-lg text-common font-medium font-rajdhani">
+                  UI/UX Designer
+                </h5>
+                <p className="text-base text-[#5D6570] font-rubik leading-7.5 mt-4 lg:w-111 w-full">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum desi dolore eu fugiat nulla pariatu Duis aute irure
+                </p>
+              </div>
+              <div className="mt-12.5">
+                <h3 className="text-base text-red font-medium  font-rubik ">
+                  experience
+                </h3>
+                <h4 className="text-2xl text-common font-bold font-rajdhani leading-7.5">
+                  Fatima Asrafy
+                </h4>
+                <h5 className="text-lg text-common font-medium font-rajdhani leading-7">
+                  UI/UX Designer
+                </h5>
+                <p className="text-base text-[#5D6570] font-rubik leading-7.5 mt-4 lg:w-111 w-full">
+                  Interested in working together? Let’s bring your ideas to
+                  life! Contact me, and let’s start building something.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
