@@ -12,6 +12,7 @@ import Education from './components/layouts/Education'
 import Market from './components/layouts/Market'
 import PricePlan from './components/layouts/PricePlan'
 import SkillProgressBar from './components/layouts/SkillProgressBar'
+import Blog from './components/layouts/Blog'
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
     <MySkill/>
     <PricePlan/>
     <Testimonial/>
+    <Blog/>
     <Footer/>
     </>
   )
