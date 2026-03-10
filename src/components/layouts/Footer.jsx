@@ -30,19 +30,19 @@ const Footer = () => {
                 Quick Link
               </h4>
               <ul>
-                <li className="font-rubik text-base text-common pt-4">
+                <li className="font-rubik text-base text-common pt-4 cursor-pointer">
                   About Me
                 </li>
-                <li className="font-rubik text-base text-common pt-4">
+                <li className="font-rubik text-base text-common pt-4 cursor-pointer">
                   Service
                 </li>
-                <li className="font-rubik text-base text-common pt-4">
+                <li className="font-rubik text-base text-common pt-4 cursor-pointer">
                   Contact Us
                 </li>
-                <li className="font-rubik text-base text-common pt-4">
+                <li className="font-rubik text-base text-common pt-4 cursor-pointer">
                   Blog Post
                 </li>
-                <li className="font-rubik text-base text-common pt-4">
+                <li className="font-rubik text-base text-common pt-4 cursor-pointer">
                   Pricing
                 </li>
               </ul>
