@@ -1,86 +1,81 @@
-import React from 'react'
+import { Progress } from "@/components/ui/progress";
 
 const SkillProgressBar = () => {
+  const skills = [
+    { name: "PHOTOSHOP", value: 100 },
+    { name: "FIGMA", value: 95 },
+    { name: "ADOBE XD", value: 60 },
+    { name: "ADOBE ILLUSTRATOR", value: 70 },
+  ];
+
   return (
     <section>
-        <div className="container py-10">
-            <div className=" lg:flex md:flex justify-between items-center mt-22.5 gap-8">
-                        <div className="lg:w-1/2 md:w-1/2 w-full">
-                        <div className="">
-                            <h2 className='text-[32px] text-primary dark:text-white font-bold font-rajdhani leading-10.5'>Design Skill </h2>
-                            <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>PHOTOSHOT</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>100%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-secondary rounded-[10px] mt-4"></div>
-                            </div>
-                            <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>FIGMA</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-5 mr-2'>95%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
-                            after:h-full after:w-[95%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
-                            </div>
-                            <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE XD</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-61 mr-30'>60%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
-                            after:h-full after:w-[60%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
-                            </div>
-                            <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE ILLUSTRATOR</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-46 mr-22'>70%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
-                            after:h-full after:w-[70%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="lg:w-1/2 md:w-1/2 w-full">
-                        <div className="lg:mt-0 md:mt-0 mt-7.5">
-                            <h2 className='text-[32px] text-primary dark:text-white font-bold font-rajdhani leading-10.5'>Development Skill  </h2>
-                             <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>PHOTOSHOT</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>100%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-secondary rounded-[10px] mt-4"></div>
-                            </div>
-                            <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>FIGMA</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-5 mr-2'>95%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
-                            after:h-full after:w-[95%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
-                            </div>
-                            <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE XD</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-61 mr-30'>60%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
-                            after:h-full after:w-[60%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
-                            </div>
-                            <div className="mt-7.5">
-                                <div className="flex justify-between items-center">
-                                <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE ILLUSTRATOR</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-46 mr-22'>70%</h4>
-                                </div>
-                                <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
-                            after:h-full after:w-[70%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
-                            </div>
-                        </div>
-                        </div>
-        </div>
-        </div>
-    </section>
-  )
-}
+      <div className="container py-10">
+        <div className="grid md:grid-cols-2 gap-10">
+          {/* left side  */}
+          <div>
+            <h3 className="font-bold font-rajdhani text-[32px] text-common pb-10">
+              Design Skill
+            </h3>
 
-export default SkillProgressBar
+            {skills.map((skill, index) => (
+              <div key={index} className="mb-8">
+                {/* Title and Percentage Wrapper */}
+                <div className="relative mb-2">
+                  <h4 className="text-sm font-rubik text-common uppercase">
+                    {skill.name}
+                  </h4>
+
+                  {/* Dynamic Percentage Label */}
+                  <h4
+                    className="absolute top-0 text-sm font-bold transition-all duration-500"
+                    style={{
+                      left: `${skill.value}%`,
+                      transform: "translateX(-100%)",
+                    }}
+                  >
+                    {skill.value}%
+                  </h4>
+                </div>
+
+                <Progress value={skill.value} className="w-full" />
+              </div>
+            ))}
+          </div>
+          {/* left side  */}
+          {/* Right side  */}
+          <div>
+            <h3 className="font-bold font-rajdhani text-[32px] text-common pb-10">
+              Development Skill
+            </h3>
+
+            {skills.map((skill, index) => (
+              <div key={index} className="mb-8">
+                <div className="relative mb-2">
+                  <h4 className="text-sm font-rubik text-common uppercase">
+                    {skill.name}
+                  </h4>
+
+                  <h4
+                    className="absolute top-0 text-sm font-bold transition-all duration-500"
+                    style={{
+                      left: `${skill.value}%`,
+                      transform: "translateX(-100%)",
+                    }}
+                  >
+                    {skill.value}%
+                  </h4>
+                </div>
+
+                <Progress value={skill.value} className="w-full" />
+              </div>
+            ))}
+          </div>
+          {/* Right side  */}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SkillProgressBar;
