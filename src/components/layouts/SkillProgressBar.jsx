@@ -20,13 +20,10 @@ const SkillProgressBar = () => {
 
             {skills.map((skill, index) => (
               <div key={index} className="mb-8">
-                {/* Title and Percentage Wrapper */}
                 <div className="relative mb-2">
                   <h4 className="text-sm font-rubik text-common uppercase">
                     {skill.name}
                   </h4>
-
-                  {/* Dynamic Percentage Label */}
                   <h4
                     className="absolute top-0 text-sm font-bold transition-all duration-500"
                     style={{
