@@ -8,6 +8,7 @@ import Portfolio from './components/layouts/Portfolio'
 import MySkill from './components/layouts/MySkill'
 import Testimonial from './components/layouts/Testimonial'
 import Service from './components/layouts/Service'
+import Education from './components/layouts/Education'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
     <Experience/>
     <ExperienceCounter/>
     <Service/>
+    <Education/>
     <Portfolio/>
     <MySkill/>
     <Testimonial/>
