@@ -74,7 +74,7 @@ const Banner = () => {
       </div>
 
       {/* massenger button */}
-      <div className="fixed bottom-50 right-10 z-40">
+      <div className="fixed bottom-50 right-5 z-40">
         <div
           onClick={() => setOpen(true)}
           className="p-4 text-[30px] text-white rounded-full bg-red shadow-lg cursor-pointer hover:scale-110 transition-transform"

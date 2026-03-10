@@ -38,16 +38,16 @@ const MySkill = () => {
                 </h5>
               </div>
               <div className="lg:w-[45%] md:w-[45%] w-full">
-                <p className="text-base text-[#5D6570] group-hover:text-common font-rubik leading-8 lg:w-[80%] md:w-[80%] w-full  lg:ml-10 ml-0 text-center lg:text-start md:text-start">
+                <p className="text-base text-[#5D6570] group-hover:text-common font-rubik leading-8 lg:w-[80%] md:w-[80%] w-full lg:ml-10 ml-0 text-center lg:text-start md:text-start">
                   My work is driven by the belief that thoughtful design and
                   strategic planning can empower brands strategic planning can
                   empower brands
                 </p>
               </div>
               <div className="lg:w-[15%] md:w-[15%] w-full flex lg:justify-end md:justify-end justify-center ">
-                <button className="flex items-center text-base text-common font-bold font-rajdhani cursor-pointer">
+                <p className="flex items-center text-base text-common font-bold font-rajdhani cursor-pointer">
                   Read More <MdOutlineKeyboardArrowRight />
-                </button>
+                </p>
               </div>
             </div>
           </div>
@@ -79,9 +79,9 @@ const MySkill = () => {
                 </p>
               </div>
               <div className="lg:w-[15%] md:w-[15%] w-full flex lg:justify-end md:justify-end justify-center ">
-                <button className="flex items-center text-base text-common font-bold font-rajdhani cursor-pointer">
+                <p className="flex items-center text-base text-common font-bold font-rajdhani cursor-pointer">
                   Read More <MdOutlineKeyboardArrowRight />
-                </button>
+                </p>
               </div>
             </div>
           </div>
@@ -112,9 +112,9 @@ const MySkill = () => {
                 </p>
               </div>
               <div className="lg:w-[15%] md:w-[15%] w-full flex lg:justify-end md:justify-end justify-center ">
-                <button className="flex items-center text-base text-common font-bold font-rajdhani cursor-pointer">
+                <p className="flex items-center text-base text-common font-bold font-rajdhani cursor-pointer">
                   Read More <MdOutlineKeyboardArrowRight />
-                </button>
+                </p>
               </div>
             </div>
           </div>
