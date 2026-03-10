@@ -87,7 +87,7 @@ const MySkill = () => {
           </div>
           {/* Div Two end  */}
           {/* Div Three start  */}
-          <div className="group pt-11 pb-8 duration-400 ease-in-out hover:bg-red px-5 border-t border-common/5">
+          <div className="group pt-11 pb-8 duration-400 ease-in-out hover:bg-red px-5 border-y border-common/5">
             <div className=" lg:flex md:flex justify-between items-center">
               <div className="lg:w-[15%] md:w-[15%] w-full">
                 <div

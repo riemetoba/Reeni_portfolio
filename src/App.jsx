@@ -11,6 +11,7 @@ import Service from './components/layouts/Service'
 import Education from './components/layouts/Education'
 import Market from './components/layouts/Market'
 import PricePlan from './components/layouts/PricePlan'
+import SkillProgressBar from './components/layouts/SkillProgressBar'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
     <Experience/>
     <ExperienceCounter/>
     <Service/>
+    <SkillProgressBar/>
     <Education/>
     <Market/>
     <Portfolio/>
