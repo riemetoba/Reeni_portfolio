@@ -12,7 +12,7 @@ const Icons = () => {
         (Icon, index) => (
           <div
             key={index}
-            className="flex items-center justify-center bg-[#0A0A0A]/5 hover:bg-red hover:text-white transition-all rounded-full h-12 w-12 cursor-pointer"
+            className="flex items-center justify-center bg-[#0A0A0A]/5 hover:bg-red hover:text-white transition-all rounded-full h-12 w-12 cursor-pointer shrink-0"
           >
             <Icon className="text-lg" />
           </div>
