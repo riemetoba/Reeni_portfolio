@@ -1,7 +1,7 @@
 const ExperienceCounter = () => {
   return (
     <section>
-      <div className="container flex justify-between items-center gap-8 py-20">
+      <div className="container flex flex-col lg:justify-between items-center gap-8 py-20 px-5">
         {/* Left side  */}
         <div className="lg:w-1/2 w-full">
           <div
