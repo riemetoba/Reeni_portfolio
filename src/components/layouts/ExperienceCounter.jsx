@@ -27,7 +27,7 @@ const ExperienceCounter = () => {
         <div className="lg:w-1/2 w-full">
           <div className="">
             <div className="lg:flex md:flex justify-between items-center gap-8">
-              {/* =================> */}
+              {/* ===================> */}
               <div className="lg:w-1/2 w-full lg:mt-0 mt-8 ">
                 <div className="py-9 bg-[#f4f4f4] rounded-[20px] border-b-3 border-r-3 border-red">
                   <h2 className="text-[48px] text-common font-bold font-inter leading-15.5 text-center">
