@@ -24,18 +24,18 @@ const Header = () => {
         {/* Desktop Menu */}
         <div className="hidden lg:block">
           <ul className="flex items-center gap-x-5 cursor-pointer">
-            <li className="font-rajdhani text-base font-bold text-common">Home</li>
-            <li className="font-rajdhani text-base font-bold text-common">About</li>
-            <li className="font-rajdhani text-base font-bold text-common flex items-center gap-1">
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">Home</li>
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">About</li>
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300 flex items-center gap-1">
               Services <MdOutlineKeyboardArrowDown />
             </li>
-            <li className="font-rajdhani text-base font-bold text-common flex items-center gap-1">
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300 flex items-center gap-1">
               Blog <MdOutlineKeyboardArrowDown />
             </li>
-            <li className="font-rajdhani text-base font-bold text-common flex items-center gap-1">
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300 flex items-center gap-1">
               Project <MdOutlineKeyboardArrowDown />
             </li>
-            <li className="font-rajdhani text-base font-bold text-common">Contact</li>
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">Contact</li>
           </ul>
         </div>
 
