@@ -72,18 +72,18 @@ const Header = () => {
           lg:hidden
         `}>
           <ul className="flex flex-col gap-y-6 mt-16">
-            <li className="font-rajdhani text-lg font-bold text-common">Home</li>
-            <li className="font-rajdhani text-lg font-bold text-common">About</li>
-            <li className="font-rajdhani text-lg font-bold text-common flex items-center justify-between">
+            <li className="font-rajdhani text-lg font-bold text-common hover:text-red duration-300">Home</li>
+            <li className="font-rajdhani text-lg font-bold text-common hover:text-red duration-300">About</li>
+            <li className="font-rajdhani text-lg font-bold text-common hover:text-red duration-300 flex items-center justify-between">
               Services <MdOutlineKeyboardArrowDown />
             </li>
-            <li className="font-rajdhani text-lg font-bold text-common flex items-center justify-between">
+            <li className="font-rajdhani text-lg font-bold text-common hover:text-red duration-300 flex items-center justify-between">
               Blog <MdOutlineKeyboardArrowDown />
             </li>
-            <li className="font-rajdhani text-lg font-bold text-common flex items-center justify-between">
+            <li className="font-rajdhani text-lg font-bold text-common hover:text-red duration-300 flex items-center justify-between">
               Project <MdOutlineKeyboardArrowDown />
             </li>
-            <li className="font-rajdhani text-lg font-bold text-common border-b pb-4">Contact</li>
+            <li className="font-rajdhani text-lg font-bold text-common hover:text-red duration-300 border-b pb-4">Contact</li>
           </ul>
 
           <div className="mt-8 flex justify-start">
