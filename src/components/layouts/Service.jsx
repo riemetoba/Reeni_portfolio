@@ -4,7 +4,7 @@ import serviceImg from "/src/assets/serviceImg.png";
 const Service = () => {
   return (
     <section>
-      <div className="container lg:py-20 py-10">
+      <div className="container lg:py-20 py-10 px-5 lg:px-0">
         {/* Title text start  */}
         <h4 className="text-base text-red font-medium font-rubik text-center uppercase">
           Latest Service
