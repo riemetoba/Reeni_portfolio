@@ -10,7 +10,7 @@ const SkillProgressBar = () => {
 
   return (
     <section>
-      <div className="container py-10">
+      <div className="container py-10 px-5 lg:px-0">
         <div className="grid md:grid-cols-2 gap-10">
           {/* left side  */}
           <div>
