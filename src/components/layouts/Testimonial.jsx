@@ -4,7 +4,7 @@ import testIcon from "/src/assets/testimonial-icon.png";
 const Testimonial = () => {
   return (
     <section>
-      <div className="container lg:py-20 py-10">
+      <div className="container lg:py-20 py-10 px-5 lg:px-0">
         {/* Title text start  */}
         <div className="">
           <h4 className="text-base text-red font-medium  font-rubik  text-center uppercase">
