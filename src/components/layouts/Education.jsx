@@ -4,7 +4,7 @@ import educationImg from "/src/assets/educationImg.png";
 const Education = () => {
   return (
     <section>
-      <div className="container lg:pt-20 pt-10">
+      <div className="container lg:pt-20 pt-10 px-5 lg:px-0">
         <h2 className="text-[32px] text-common font-bold font-rajdhani leading-10.5">
           Education
         </h2>

@@ -11,7 +11,7 @@ import asana from "/src/assets/asana.png";
 const Market = () => {
   return (
     <section>
-      <div className="container lg:pb-20 pb-10">
+      <div className="container lg:pb-20 pb-10 px-5 lg:px-0">
         <div className="border border-[#D9DDE0] lg:mt-30.5 mt-15">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
             <Image
