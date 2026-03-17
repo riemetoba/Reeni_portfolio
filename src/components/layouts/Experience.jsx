@@ -7,10 +7,10 @@ import marketing from "/src/assets/marketing.png"
 
 const Experience = () => {
   return (
-    <section className='pt-22.5'>
-                <div className="container">
-                    <div className="flex items-center justify-between gap-7.5">
-                        <div className="w-1/4">
+    <section>
+                <div className="container pt-22.5 px-5 lg:px-0">
+                    <div className="flex flex-col lg:flex-row items-center justify-between gap-7.5">
+                        <div className="w-full lg:w-1/4">
                             <div className="py-10.25 border border-common/5 rounded-[10px]">
                                 <div className="flex justify-center">
                                     <Image src={webD} alt="" />
@@ -21,7 +21,7 @@ const Experience = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/4">
+                        <div className="w-full lg:w-1/4">
                             <div className="py-10.25 border border-common/5 rounded-[10px]">
                                 <div className="flex justify-center">
                                     <Image src={uiux} alt="" />
@@ -32,7 +32,7 @@ const Experience = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/4">
+                        <div className="w-full lg:w-1/4">
                             <div className="py-10.25 border border-common/5 rounded-[10px]">
                                 <div className="flex justify-center">
                                     <Image src={wRsr} alt="" />
@@ -43,7 +43,7 @@ const Experience = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/4">
+                        <div className="w-full lg:w-1/4">
                             <div className="py-10.25 border border-common/5 rounded-[10px]">
                                 <div className="flex justify-center">
                                     <Image src={marketing} alt="" />
