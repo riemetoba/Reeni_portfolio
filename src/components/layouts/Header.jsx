@@ -48,7 +48,7 @@ const Header = () => {
           {/* Hamburger Icon */}
           <div 
             onClick={toggleMenu}
-            className="flex items-center justify-center bg-red rounded-full h-11 w-11 sm:h-12 sm:w-12 cursor-pointer relative z-50"
+            className="lg:hidden flex items-center justify-center bg-red rounded-full h-11 w-11 sm:h-12 sm:w-12 cursor-pointer relative z-50"
           >
             {isOpen ? (
               <MdClose className="text-white text-2xl" />
