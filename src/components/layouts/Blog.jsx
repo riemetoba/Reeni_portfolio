@@ -8,8 +8,8 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Blog = () => {
   return (
     <>
-      <section className="lg:pb-30 pb-15 pt-5">
-        <div className="container">
+      <section>
+        <div className="container lg:pb-30 pb-15 pt-5 px-5 lg:px-0">
           <div className="">
             <h4 className="text-base text-red font-medium font-rubik text-center uppercase pb-2">
               Blog and news
