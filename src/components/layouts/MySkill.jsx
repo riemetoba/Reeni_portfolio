@@ -6,10 +6,10 @@ import { LiaPenNibSolid } from "react-icons/lia";
 const MySkill = () => {
   return (
     <section className="bg-[#F4F4F4]">
-      <div className="container py-10">
+      <div className="container py-10 px-5 lg:px-0">
         {/* Title text strat  */}
         <div className="">
-          <h4 className="text-base text-red font-medium  font-rubik  uppercase">
+          <h4 className="text-base text-red font-medium  font-rubik mb-2 lg:mb-0 uppercase">
             My Skill
           </h4>
           <h2 className="text-[22px] lg:text-[48px] md:text-[32px] text-common font-bold font-rajdhani lg:leading-15 lg:w-[50%]">
