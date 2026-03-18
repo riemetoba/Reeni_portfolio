@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-[50%]">
-          <div className="flex flex-col lg:flex-row items-start justify-between">
+          <div className="flex flex-col lg:flex-row items-start justify-between gap-y-10 lg:gap-y-0">
             <div className="">
               <h4 className="font-rajdhani font-bold text-2xl text-common pb-8">
                 Quick Link
