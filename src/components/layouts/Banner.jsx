@@ -17,11 +17,9 @@ const Banner = () => {
 
   return (
     <section className="relative overflow-hidden pt-5 pb-10">
-
       {/* Desktop */}
       <div className="hidden lg:block">
         <div className="container mx-auto flex items-end justify-between gap-10 min-h-150">
-
           {/* Left */}
           <div className="w-[25%] z-30 pb-50">
             <h3 className="font-rajdhani font-bold text-[28px] text-common uppercase">
@@ -35,7 +33,6 @@ const Banner = () => {
 
           {/* Middle */}
           <div className="relative flex justify-center items-end w-[50%]">
-
             {/* Back text */}
             <h1 className="absolute bottom-1 left-1/2 -translate-x-1/2 text-[150px] xl:text-[170px] font-bold text-transparent uppercase tracking-wider [-webkit-text-stroke:2px_black] z-0 opacity-20 whitespace-nowrap select-none font-rajdhani leading-none">
               WEB DESIGN
@@ -78,7 +75,6 @@ const Banner = () => {
               <Icons />
             </div>
           </div>
-
         </div>
       </div>
 
@@ -94,13 +90,9 @@ const Banner = () => {
 
       {/* Mobile */}
       <div className="lg:hidden">
-
         {/* Image */}
         <div className="flex justify-center">
-          <Image
-            src={bannerImg}
-            className="w-[80%] max-w-75 object-contain"
-          />
+          <Image src={bannerImg} className="w-[80%] max-w-75 object-contain" />
         </div>
 
         {/* Content below image */}
@@ -144,19 +136,16 @@ const Banner = () => {
       </div>
 
       {/* Right badge */}
-<div className="fixed top-1/2 right-0 -translate-y-1/2 z-30 flex flex-col items-end">
-  
-  <div className="bg-common px-2 py-2">
-    <h3 className="text-xs lg:text-sm text-white font-medium font-rajdhani uppercase writing-mode-vertical">
-      48 Pre-built sites
-    </h3>
-  </div>
-
-  <div className="bg-[#48A133] px-2 py-2 flex items-center justify-center">
-    <Image src={bRight} alt="arrow" className="rotate-180" />
-  </div>
-
-</div>
+      <div className="flex rotate-90 fixed lg:top-88 top-100 right-0 lg:-right-23 z-30">
+        <div className="py-5 px-6 bg-[#1F242E] ">
+          <h3 className="text-[10px] lg:text-base text-white font-medium font-rajdhani uppercase rotate-180">
+            48 Pre-built sites
+          </h3>
+        </div>
+        <div className="py-2 px-3 bg-[#48A133]">
+          <img className="rotate-275" src={bRight} alt="" />
+        </div>
+      </div>
 
       {/* Slider part */}
       <div
@@ -175,9 +164,14 @@ const Banner = () => {
         </div>
 
         <div className="p-8">
-          <Image className="w-full rounded-lg" src={dropDownImg} alt="Profile" />
+          <Image
+            className="w-full rounded-lg"
+            src={dropDownImg}
+            alt="Profile"
+          />
           <h3 className="text-common text-xl font-bold font-rubik mt-6 leading-7">
-            Freelancer delivering <br /> exceptional Webflow, and Next.js solutions.
+            Freelancer delivering <br /> exceptional Webflow, and Next.js
+            solutions.
           </h3>
           <p className="text-[#5D6570] text-base font-rubik mt-4 leading-relaxed">
             I am a skilled freelancer specializing in Webflow development, Figma
@@ -185,9 +179,21 @@ const Banner = () => {
             user-centric web solutions.
           </p>
           <div className="mt-10 space-y-6">
-            <ContactInfo icon={<IoCall />} title="Call Now" detail="+92 (8800) - 98670" />
-            <ContactInfo icon={<MdEmail />} title="Mail Us" detail="example@info.com" />
-            <ContactInfo icon={<IoMdLocate />} title="My Address" detail="66 Broklyant, New York 3269" />
+            <ContactInfo
+              icon={<IoCall />}
+              title="Call Now"
+              detail="+92 (8800) - 98670"
+            />
+            <ContactInfo
+              icon={<MdEmail />}
+              title="Mail Us"
+              detail="example@info.com"
+            />
+            <ContactInfo
+              icon={<IoMdLocate />}
+              title="My Address"
+              detail="66 Broklyant, New York 3269"
+            />
           </div>
           <div className="mt-10">
             <p className="font-bold mb-4">FIND WITH ME</p>
@@ -195,7 +201,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };
