@@ -7,14 +7,14 @@ import { IoLocationSharp, IoCall } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F4F4F4] py-15">
-      <div className="container flex items-start justify-between">
+    <div className="bg-[#F4F4F4] py-15 px-5 lg:px-0">
+      <div className="container flex flex-col lg:flex-row items-start justify-between">
         <div className="w-[50%]">
           <Image src={logo} />
-          <h2 className="text-[40px] lg:text-[50px] font-rajdhani w-100 leading-15 py-8">
-            <span className="font-bold">Get Ready</span> To Create Great
+          <h2 className="text-[30px] lg:text-[50px] font-rajdhani w-100 lg:leading-15 py-8">
+            <span className="font-bold">Get Ready</span> To <br />Create Great
           </h2>
-          <div className="flex items-center border-b border-b-[#D9DDE0] pb-4 w-82.5">
+          <div className="flex items-center border-b border-b-[#D9DDE0] pb-4 w-65 lg:w-82.5 mb-10 lg:mb-0">
             <input
               type="email"
               placeholder="Email Address"
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-[50%]">
-          <div className="flex items-start justify-between">
+          <div className="flex flex-col lg:flex-row items-start justify-between">
             <div className="">
               <h4 className="font-rajdhani font-bold text-2xl text-common pb-8">
                 Quick Link
