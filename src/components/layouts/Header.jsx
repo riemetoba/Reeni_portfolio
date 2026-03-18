@@ -26,14 +26,14 @@ const Header = () => {
           <ul className="flex items-center gap-x-5 cursor-pointer">
             <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">Home</li>
             <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">About</li>
-            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300 flex items-center gap-1">
-              Services <MdOutlineKeyboardArrowDown />
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">
+              Services
             </li>
-            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300 flex items-center gap-1">
-              Blog <MdOutlineKeyboardArrowDown />
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">
+              Blog
             </li>
-            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300 flex items-center gap-1">
-              Project <MdOutlineKeyboardArrowDown />
+            <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">
+              Project
             </li>
             <li className="font-rajdhani text-base font-bold text-common hover:text-red duration-300">Contact</li>
           </ul>
