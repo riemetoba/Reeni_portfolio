@@ -144,24 +144,19 @@ const Banner = () => {
       </div>
 
       {/* Right badge */}
-      <div className="flex rotate-90 fixed lg:top-88 top-95 -right-23 z-30">
-        <div className="lg:py-2.5 py-2 px-6 bg-common">
-          <h3 className="text-[16px] text-white font-medium font-rajdhani leading-5 uppercase rotate-180">
-            48 Pre-built sites
-          </h3>
-        </div>
-        <div className="lg:py-2.5 py-2 px-3.75 bg-[#48A133]">
-          <Image className="rotate-275" src={bRight} />
-        </div>
-      </div>
+<div className="fixed top-1/2 right-0 -translate-y-1/2 z-30 flex flex-col items-end">
+  
+  <div className="bg-common px-2 py-2">
+    <h3 className="text-xs lg:text-sm text-white font-medium font-rajdhani uppercase writing-mode-vertical">
+      48 Pre-built sites
+    </h3>
+  </div>
 
-      {/*======*/}
-      {open && (
-        <div
-          className="fixed inset-0 bg-black/20 z-49"
-          onClick={() => setOpen(false)}
-        />
-      )}
+  <div className="bg-[#48A133] px-2 py-2 flex items-center justify-center">
+    <Image src={bRight} alt="arrow" className="rotate-180" />
+  </div>
+
+</div>
 
       {/* Slider part */}
       <div
