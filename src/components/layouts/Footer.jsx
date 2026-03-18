@@ -82,10 +82,10 @@ const Footer = () => {
         </div>
       </div>
        <div className="container lg:flex md:flex justify-between items-center py-7 border-t border-[#D9DDE0] lg:mt-31.75 mt-15">
-          <p className="text-sm text-[#5D6570] font-normal font-rubik leading-7.5 text-start">
+          <p className="text-[11px] lg:text-sm text-[#5D6570] font-rubik leading-7.5 text-center lg:text-start">
             © InversWeb 2026 | All Rights Reserved
           </p>
-          <p className="text-sm text-common font-normal font-rubik leading-7.5 text-start">
+          <p className="text-[12px] lg:text-sm text-common font-rubik leading-7.5 text-center lg:text-start">
             Trams & Condition Privacy Policy Contact Us
           </p>
         </div>
